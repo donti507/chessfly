@@ -12,7 +12,7 @@
 
 **[Interactive 3D mission](https://claude.ai/artifact/5cobwrSTvQWzB88KUtVBZe)** · **[Play chess against the fly](https://claude.ai/artifact/8gRB5DUGNV5WrG3kmYfL8s)** · **[Technical notes](docs/TECHNICAL.md)**
 
-<img src="docs/fig1_circuit.png" width="560" alt="The 434-neuron fly head-direction circuit arranged in rings by cell type, with its strongest connections">
+<img src="fig1_circuit.png" width="560" alt="The 434-neuron fly head-direction circuit arranged in rings by cell type, with its strongest connections">
 
 </div>
 
@@ -115,7 +115,7 @@ flowchart TB
 
 A calibrated reservoir separated test positions reliably (100% decoding of 8 positions, between-position distance 11.6× the noise). At scale, however, every readout of fly activity fell below a readout of its own input.
 
-<p align="center"><img src="docs/fig2_frozen_reservoir.png" width="720" alt="Bar chart of test top-1 accuracy for each representation"></p>
+<p align="center"><img src="fig2_frozen_reservoir.png" width="720" alt="Bar chart of test top-1 accuracy for each representation"></p>
 
 In full games against a random-move opponent (20 games each, 150-ply cap, material adjudication), the frozen-fly bot scored 0.55, statistically indistinguishable from the random bot, while readouts of the raw board and of the input encoding scored 0.93 and 0.85. It never produced an illegal move.
 
@@ -125,7 +125,7 @@ When every neuron received the board and the readout saw every neuron, real wiri
 
 ### 4.3 With a bottleneck, real wiring learns worse
 
-<p align="center"><img src="docs/fig3_learning_curves.png" width="720" alt="Learning curves: real fly wiring below both shuffled controls"></p>
+<p align="center"><img src="fig3_learning_curves.png" width="720" alt="Learning curves: real fly wiring below both shuffled controls"></p>
 
 | Training positions | 1k | 3k | 10k | 30k | 69k |
 |---|---:|---:|---:|---:|---:|
@@ -141,7 +141,7 @@ The degree-preserving shuffle recovers part of the gap but not all of it, so the
 
 ### 4.4 Real wiring compresses activity, and dimensionality tracks learning
 
-<p align="center"><img src="docs/fig4_dimensionality.png" width="780" alt="Participation ratio by wiring before and after training, and its relation to accuracy"></p>
+<p align="center"><img src="fig4_dimensionality.png" width="780" alt="Participation ratio by wiring before and after training, and its relation to accuracy"></p>
 
 | Wiring | PR before training | PR after training | Test top-1 | Value correlation* |
 |---|---:|---:|---:|---:|
