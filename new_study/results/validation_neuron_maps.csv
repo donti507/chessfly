@@ -1,0 +1,9 @@
+map (target -> source),cell_type,fraction_exact_glomerulus_match
+hemibrain -> mcns,EPG,1.0
+hemibrain -> mcns,PEN_a,1.0
+hemibrain -> mcns,PEN_b,1.0
+hemibrain -> mcns,PEG,0.83
+mcns -> hemibrain,EPG,1.0
+mcns -> hemibrain,PEN_a,1.0
+mcns -> hemibrain,PEN_b,1.0
+mcns -> hemibrain,PEG,0.83

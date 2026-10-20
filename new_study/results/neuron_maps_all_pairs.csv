@@ -1,0 +1,13 @@
+source,target,alignment_r,mirrored,fraction_source_neurons_used
+mcns,hemibrain,0.804,False,0.99
+mcns,fafb,0.572,False,0.96
+mcns,banc,0.515,False,0.94
+hemibrain,mcns,0.804,False,0.94
+hemibrain,fafb,0.57,True,0.93
+hemibrain,banc,0.528,False,0.93
+fafb,mcns,0.581,True,0.96
+fafb,hemibrain,0.563,True,0.99
+fafb,banc,0.434,True,0.96
+banc,mcns,0.515,True,0.91
+banc,hemibrain,0.529,False,0.96
+banc,fafb,0.423,True,0.93

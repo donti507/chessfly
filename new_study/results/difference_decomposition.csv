@@ -1,0 +1,13 @@
+source,kind,comparison,map_distance
+filtering,same fly,male CNS Codex vs neuPrint,0.022
+filtering,same fly,FlyWire filtered vs unfiltered,0.038
+proofreading,same fly,male CNS v0.9 vs v1.0,0.0
+proofreading,same fly,BANC v626 vs v888,0.104
+synapse detector,same fly,FlyWire Princeton vs Buhmann,0.09
+synapse detector,same fly,FlyWire unfiltered vs Buhmann,0.084
+between flies,same pipeline family,male CNS vs hemibrain,0.117
+between flies,different pipelines,hemibrain vs FlyWire,0.108
+between flies,different pipelines,FlyWire vs BANC,0.125
+between flies,different pipelines,male CNS vs FlyWire,0.137
+between flies,different pipelines,hemibrain vs BANC,0.185
+between flies,different pipelines,male CNS vs BANC,0.212

@@ -1,0 +1,6 @@
+neuprint-python
+brian2
+numpy
+scipy
+pandas
+python-chess

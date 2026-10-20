@@ -1,0 +1,9 @@
+test,fly,cell_type,method,circular_agreement_with_glomerulus_labels,shuffled_control
+position inference,mcns,EPG,MDS of connectivity profiles,0.99,0.26-0.31
+position inference,mcns,PEN_a,anchored to EPG,1.0,0.36-0.49
+position inference,mcns,PEN_b,anchored to EPG,1.0,0.33-0.40
+position inference,mcns,PEG,anchored to EPG,1.0,0.30-0.38
+position inference,hemibrain,EPG,MDS of connectivity profiles,0.99,0.25-0.30
+position inference,hemibrain,PEN_a,anchored to EPG,1.0,0.31-0.35
+position inference,hemibrain,PEN_b,anchored to EPG,0.99,0.24-0.29
+position inference,hemibrain,PEG,anchored to EPG,1.0,0.27-0.55

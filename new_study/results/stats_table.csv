@@ -1,0 +1,28 @@
+family,test,status,statistic,p,note,p_holm_prereg
+H1 transplant (prereg),"median transplant ratio R, celltype gains",prespecified,R = 87,,H1b (fragile) if R > 5,
+H1 transplant (prereg),"median transplant ratio R, neuron gains",prespecified,R = 162,,H1b (fragile) if R > 5,
+H2 level (prereg),"neuron-level R > cell-type R (paired Wilcoxon, 12 pairs)",prespecified,median 162 vs 87,0.000244140625,,0.000732421875
+H3 distance (prereg),"rho(wiring distance, R), celltype gains",prespecified,rho = -0.33,0.8487568071552103,one-sided; floor effect,0.8487568071552103
+H3 distance (prereg),"rho(wiring distance, R), neuron gains",prespecified,rho = +0.25,0.2124260500624962,one-sided; floor effect,0.4248521001249924
+H4 mechanism (prereg),banc celltype: networks meeting ring + fast return,prespecified,3/5,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),banc neuron: networks meeting ring + fast return,prespecified,5/5,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),fafb celltype: networks meeting ring + fast return,prespecified,4/5,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),fafb neuron: networks meeting ring + fast return,prespecified,5/5,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),hemibrain celltype: networks meeting ring + fast return,prespecified,3/4,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),hemibrain neuron: networks meeting ring + fast return,prespecified,4/4,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),mcns celltype: networks meeting ring + fast return,prespecified,3/4,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),mcns neuron: networks meeting ring + fast return,prespecified,4/4,,supported if >= 3 of 5 (or of trained seeds),
+H4 mechanism (prereg),positive control: Delta7 silencing breaks H4,prespecified,26/31; error up in 100%,,,
+H5 drift (descriptive),"fly E-PG drift, darkness","prespecified, descriptive","D = 0.0465 [0.0127, 0.1032] rad^2/s",,,
+H5 drift (descriptive),"fly E-PG drift, bright cue (jitter floor)","prespecified, descriptive","D = 0.0228 [0.0107, 0.0350] rad^2/s",,,
+H5 drift (descriptive),"fly E-PG drift, darkness minus bright","prespecified, descriptive","D = 0.0237 [-0.0103, 0.0763] rad^2/s",,,
+Exploratory: fragility,pilot: error with all weights +/-1% (median over networks),exploratory,3.0 -> 21.1 deg,,,
+Exploratory: noise trade-off,"rho(noise level, own error)",exploratory,rho = +0.83,9.59067416484564e-13,,
+Exploratory: noise trade-off,"rho(noise level, error at weights x0.95)",exploratory,rho = -0.86,9.88239442984965e-15,,
+Exploratory: global gain,transplant error before vs after best global gain (median),exploratory,87 -> 83 deg,6.347949984164432e-05,,
+Exploratory: refit by source,"2 same fly: filtering: zero-shot -> refit (median), rescued <30 deg",exploratory,"45 -> 8 deg, 92%",,,
+Exploratory: refit by source,"3 same fly: synapse detector: zero-shot -> refit (median), rescued <30 deg",exploratory,"83 -> 61 deg, 33%",,,
+Exploratory: refit by source,"4 different flies: zero-shot -> refit (median), rescued <30 deg",exploratory,"88 -> 57 deg, 21%",,,
+Exploratory: refit by source,refit error differs across categories (Kruskal-Wallis),exploratory,,9.87783772373928e-07,,
+Exploratory: refit by source,"same-fly detector vs different flies, refit error (Mann-Whitney, two-sided)",exploratory,61 vs 57 deg,0.20149348525248134,no detectable difference supports 'pipeline ~ fly',
+Exploratory: refit by source,"rho(wiring distance, refit error), 20 ordered pairs",exploratory,rho = +0.67,0.001,,

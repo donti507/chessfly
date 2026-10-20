@@ -1,0 +1,4 @@
+quantity,value
+"own-wiring hold error, Stage 4 trained networks (deg, 40 steps)",0.3-1.6
+"male CNS networks on same fly's neuPrint wiring (adds weakest ~4% of synapses), deg","13-74 (per-neuron 31-73, cell-type 13-38)"
+drift model reference,"removed from Fig 6B: Turner-Evans 2017 simulation value 1.82e-3 rad^2/s, variance convention unverified"

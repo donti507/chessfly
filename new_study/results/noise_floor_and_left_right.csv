@@ -1,0 +1,7 @@
+comparison,fly,map_distance,note
+"same fly, two filtering pipelines (Codex vs neuPrint)",mcns,0.022,
+"same fly, 10% of edges randomly removed (5 repeats)",mcns,0.032,SD 0.003
+left vs right halves,mcns,0.06,
+"random halves (sampling floor, 5 repeats)",mcns,0.068,
+left vs right halves,banc,0.1,
+"random halves (sampling floor, 5 repeats)",banc,0.111,
