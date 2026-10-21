@@ -6,7 +6,9 @@
 [![Preregistration](https://img.shields.io/badge/Preregistration-Zenodo-blue.svg)](https://doi.org/10.5281/zenodo.23382486)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Md Ali Ashraf Yad, Nazifa Tabassum Nabila · Wrocław University of Science and Technology
+Md Ali Ashraf Yad<sup>1</sup>, Nazifa Tabassum Nabila<sup>2</sup>
+
+<sup>1</sup> Wrocław University of Science and Technology, Poland · <sup>2</sup> Comilla University, Bangladesh
 
 📄 Paper: [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX) · 📝 Preregistration: [doi:10.5281/zenodo.23382486](https://doi.org/10.5281/zenodo.23382486)
 
